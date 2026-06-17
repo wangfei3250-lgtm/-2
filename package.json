@@ -1,0 +1,26 @@
+{
+  "name": "super-jarvis-desktop",
+  "version": "0.1.0",
+  "description": "Local desktop Super Jarvis prototype with global news monitoring and voice broadcast.",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node scripts/start-electron.js",
+    "dev": "node scripts/start-electron.js",
+    "check": "node --check src/main.js && node --check src/preload.js && node --check src/newsService.js && node --check src/renderer.js && node --check src/translateService.js && node --check src/openaiService.js && node --check src/localModelService.js && node --check src/discoveryService.js && node --check src/decisionService.js && node --check src/learningBrainService.js && node --check src/agentCoreService.js && node --check src/agentChatService.js && node --check src/crawlerService.js && node --check src/hermesService.js && node --check src/geoService.js && node --check src/trendService.js && node --check src/xService.js && node --check src/env.js"
+  },
+  "keywords": [
+    "jarvis",
+    "news",
+    "electron",
+    "rss",
+    "tts"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "rss-parser": "^3.13.0"
+  },
+  "devDependencies": {
+    "electron": "^42.3.0"
+  }
+}
